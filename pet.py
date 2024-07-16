@@ -1,5 +1,5 @@
 # Import the random module for generating random events
-
+import json
 # Define the Pet class
 
 # Method to print the current status of the pet
@@ -53,3 +53,9 @@ class Pet:
         elif event == 'cleanliness':
             self.cleanliness -= 5
             print(f"{self.name} got a bit dirty. Cleanliness decreased to {self.cleanliness}.")
+
+    def save(self):
+        pass
+
+    def load(self):
+        pass
