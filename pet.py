@@ -53,9 +53,3 @@ class Pet:
         elif event == 'cleanliness':
             self.cleanliness -= 5
             print(f"{self.name} got a bit dirty. Cleanliness decreased to {self.cleanliness}.")
-
-    def save(self):
-        pass
-
-    def load(self):
-        pass
